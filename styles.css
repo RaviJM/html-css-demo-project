@@ -1,18 +1,181 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
+    font-family: "Roboto";
 }
 
 content {
     flex:1;
+    padding: 0px;
 }
 
 header {
+    padding: 15px 170px 15px 170px;
     display: flex;
+    flex:1;
+    justify-content: space-between;
+}
+
+header .header-links {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+h2 {
+    margin: 0px;
+}
+
+h1{
+    font-size:24px;
+    color: #F9FAF8;
 }
 
 .image-placeholder {
-    height: 170px;
-    width: 350px;
-    background-color: lightgrey;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 180px;
+    width: 450px;
+    color: rgb(234, 234, 234);
+    text-align: center;
+    padding-top: 85px;
+    font-size: 18px;
+    background-color: #9297a2;
+}
+
+
+
+.content-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 170px;
+    padding-top: 50px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+
+.content-1 .text-area h2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.content-1 .text-area {
+    width: 370px;
+}
+
+.content-2 {
+    background-color: white;
+    padding: 50px 350px 67px;
+}
+
+.content-2 h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 40px;
+}
+
+.content-3{
+    padding: 80px 300px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.content-3 .quote  {
+    font-style: italic;
+}
+
+header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.box{
+    height: 117px;
+    width: 117px;
+    border: 3px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 15px;
+}
+
+.random-information-boxes{
+    display: flex;
+}
+
+.random-information{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer p{
+    padding: 15px;
+    text-align: center;
+}
+
+footer{
+    flex:1;
+    background-color: #1F2937;
+    color: white;
+}
+
+button{
+    display: inline-block;
+    color: white;
+    border-color: #3882F6;
+    background-color: #3882F6;
+    border-radius: 6px;
+    height: 30px;
+    width: 100px;
+    box-shadow: none;
+}
+
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.quote-by{
+    text-align: end;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.random-information-text{
+    width: 150px;
+    text-align: center;
+}
+
+.content-4 .blue-box{
+    margin: 65px 160px;
+    padding: 45px 90px;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 15px;
+}
+
+.content-4 button {
+    border-color: white;
+    border-width: 2.5px;
+    box-shadow: none;
+    float: right;
+}
+
+.content-4 .blue-box .bold {
+    font-weight: 600;
+    font-size: 20px;
 }
